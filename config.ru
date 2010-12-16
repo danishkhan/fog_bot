@@ -1,6 +1,2 @@
-ENV['GEM_HOME'] ||= `gem env path`.strip.split(':').first
-ENV['GEM_PATH'] ||= `gem env path`.strip
-Gem.clear_paths
-
-require 'danish'
+require File.dirname(__FILE__) + '/danish.rb'
 run Sinatra::Application
