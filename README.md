@@ -1,0 +1,1 @@
+Cinch IRC bot for the #ruby-fog channel on freenode
