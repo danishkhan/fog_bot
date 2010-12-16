@@ -1,2 +1,2 @@
-require 'hello'
+require 'danish'
 run Sinatra::Application
