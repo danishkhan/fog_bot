@@ -7,19 +7,19 @@ Cinch::Plugins::Memo::Base.configure do |c|
   c.port    = '6379'          # your port
 end
 
-class Welcome
-  include Cinch::Plugin
-
-  listen_to :join
-  
-  # def listen(m)
-  #   unless m.user.nick == bot.nick
-  # end
-
-  def listen(m)
-    m.reply "Welcome to the fog irc channel! I'm the fog-bot. If you need any help just type !help and I will assist you."
-  end
-end
+# class Welcome
+#   include Cinch::Plugin
+# 
+#   listen_to :join
+#   
+#   # def listen(m)
+#   #   unless m.user.nick == bot.nick
+#   # end
+# 
+#   def listen(m)
+#     m.reply "Welcome to the fog irc channel! I'm the fog-bot. If you need any help just type !help and I will assist you."
+#   end
+# end
 
 class Help
   include Cinch::Plugin
