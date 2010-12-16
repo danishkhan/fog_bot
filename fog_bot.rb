@@ -35,7 +35,7 @@ bot = Cinch::Bot.new do
   configure do |c|
     c.server           = "irc.freenode.net"
     c.nick             = "fog-bot"
-    c.channels         = ["#camanji"]
+    c.channels         = ["#ruby-fog"]
     c.plugins.plugins  = [Cinch::Plugins::Memo::Base, Help, Welcome]
   end
 
