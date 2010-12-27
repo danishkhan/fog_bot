@@ -24,7 +24,7 @@ end
 class Help
   include Cinch::Plugin
 
-  match "help"
+  match "msg"
 
   def execute(m)
     m.reply "!memo [nick] [message]: will save a memo for the user and fog-bot will let them know when they join the channel again or the user can type !memo? to view any messages left for them if they were idle"
